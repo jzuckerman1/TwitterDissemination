@@ -22,13 +22,13 @@ from bs4 import BeautifulSoup
 # ── Configuration ─────────────────────────────────────────────────────────────
 
 BASE_URL    = "https://rollcall.com/wp-json/factbase/v1/twitter"
-OUTPUT_FILE = "rollcall_social_posts.csv"
+OUTPUT_FILE = "data/rollcall_social_posts.csv"
 PAGE_DELAY  = 0.1       # polite pause between requests (seconds)
 MAX_RETRIES = 5         # max retry attempts per page before giving up
 
 # Set to a page number > 1 to resume from a specific page (e.g. 776).
 # When resuming, the CSV will be opened in append mode so prior data is preserved.
-START_PAGE  = 776
+START_PAGE  = 1
 
 # Filter options — adjust as needed:
 PLATFORM    = "all"     # "all", "twitter", or "truth social"
