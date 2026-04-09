@@ -1,0 +1,8 @@
+python<=3.13
+nltk
+pandas
+numpy
+matplotlib
+gensim
+umap-learn
+tokenizer
