@@ -30,3 +30,10 @@ The following links may be used to find the data we used for our project:
 1. [Obama Tweets from Kaggle](https://www.kaggle.com/datasets/neelgajare/all-12000-president-obama-tweets)
 2. [RollCall Media Posts](https://rollcall.com/factbase/trump/topic/social/?platform=all&sort=date&sort_order=desc&page=1)
 2. [Trump Tweets from Kaggle](https://www.kaggle.com/datasets/codebreaker619/donald-trump-tweets-dataset)
+
+
+## Breakup
+
+matt : sentiment by president against obama vs biden vs trump.
+jackson: multidimensional analysis of president vs global risk. 
+james: 
