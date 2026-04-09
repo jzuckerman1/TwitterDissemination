@@ -15,7 +15,7 @@ def main(start_date, end_date, ticker):
 
     print(data)
 
-    output_file = f"data/{ticker}_{start_date}_{end_date}.csv" # SAVE LOCATION
+    output_file = f"../data/{ticker}_{start_date}_{end_date}.csv" # SAVE LOCATION
     data.to_csv(output_file)
     print(f"\nSaved to {output_file}")
 
@@ -46,7 +46,7 @@ if __name__ == "__main__":
     # )
     
     main(
-        start_date=dt.date.fromisoformat("YYYY-MM-DD"),
-        end_date=dt.date.fromisoformat("YYYY-MM-DD"),
-        ticker="SNP",
+        start_date=dt.date.fromisoformat("2022-01-01"),
+        end_date=dt.date.fromisoformat("2026-01-01"),
+        ticker="^GSPC",
     )
