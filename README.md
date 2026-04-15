@@ -1,6 +1,6 @@
 # TwitterDissemination
 
-CS395 Project. This project constructed by James Zuckerman. We investigate how president's and figures of power's tweets affect market movement and uncertainty. We consider how the title of Presidency shapes ripples across the market. 
+CS395 Project. This project constructed by James Zuckerman, Matthew Kim, Jackson Chidiac. We investigate how president's and figures of power's tweets affect market movement and uncertainty. We consider how the title of Presidency shapes ripples across the market. 
 
 ## How to run
 
@@ -32,8 +32,9 @@ The following links may be used to find the data we used for our project:
 2. [Trump Tweets from Kaggle](https://www.kaggle.com/datasets/codebreaker619/donald-trump-tweets-dataset)
 
 
-## Breakup
+## Breakdown
 
-matt : sentiment by president against obama vs biden vs trump.
-jackson: multidimensional analysis of president vs global risk. 
-james: 
+To evenly split the project up, we each will focus on the following topics:
+* Matt: sentiment by president against obama vs biden vs trump.
+* Jackson: multidimensional analysis of president vs global risk. 
+* James: hypothesis test president tweets on risk metrics. Quantify risk by keywords
