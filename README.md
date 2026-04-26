@@ -29,7 +29,11 @@ The following links may be used to find the data we used for our project:
 
 1. [Obama Tweets from Kaggle](https://www.kaggle.com/datasets/neelgajare/all-12000-president-obama-tweets)
 2. [RollCall Media Posts](https://rollcall.com/factbase/trump/topic/social/?platform=all&sort=date&sort_order=desc&page=1)
-2. [Trump Tweets from Kaggle](https://www.kaggle.com/datasets/codebreaker619/donald-trump-tweets-dataset)
+3. [Trump Tweets from Kaggle](https://www.kaggle.com/datasets/codebreaker619/donald-trump-tweets-dataset)
+4. [Biden Tweets from Kaggle](https://www.kaggle.com/datasets/thedevastator/uncovering-joe-biden-s-message-through-social-me)
+5. [Active User controls](https://www.kaggle.com/datasets/umeradnaan/daily-social-media-active-users/data)
+6. [FRED and market information](https://fred.stlouisfed.org/)
+7. [YahooFinance](https://finance.yahoo.com/)
 
 
 ## Breakdown
