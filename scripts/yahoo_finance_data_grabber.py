@@ -14,7 +14,7 @@ def main(start_date, end_date, ticker):
 
     print(data)
 
-    output_file = f"../data/{ticker}_{start_date}_{end_date}.csv" # SAVE LOCATION
+    output_file = f"data/{ticker}_{start_date}_{end_date}.csv" # SAVE LOCATION
     data.to_csv(output_file)
     print(f"\nSaved to {output_file}")
 
