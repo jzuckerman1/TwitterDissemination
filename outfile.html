@@ -1,28 +1,70 @@
-OLS with Presidential Control Results<br><table style="text-align:center"><tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr>
-<tr><td style="text-align:left"></td><tr><td></td><td colspan="1">VIX Change</td><td colspan="1">Treasury Return</td><td colspan="1">Oil Return</td><td colspan="1">S&P500 Return</td></tr><tr><td style="text-align:left"></td><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td></tr>
-<tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr>
-
-<tr><td style="text-align:left">C(author)[T.Biden, Obama, Trump]</td><td>0.097<sup></sup></td><td>-0.004<sup></sup></td><td>-0.009<sup></sup></td><td>-0.000<sup></sup></td></tr>
-<tr><td style="text-align:left"></td><td>(0.213)</td><td>(0.004)</td><td>(0.007)</td><td>(0.001)</td></tr>
-<tr><td style="text-align:left">C(author)[T.Biden, Obama]</td><td>0.209<sup></sup></td><td>0.002<sup></sup></td><td>-0.001<sup></sup></td><td>-0.001<sup></sup></td></tr>
-<tr><td style="text-align:left"></td><td>(0.279)</td><td>(0.006)</td><td>(0.009)</td><td>(0.002)</td></tr>
-<tr><td style="text-align:left">C(author)[T.Biden, Trump]</td><td>0.137<sup></sup></td><td>-0.002<sup></sup></td><td>-0.006<sup></sup></td><td>-0.001<sup></sup></td></tr>
-<tr><td style="text-align:left"></td><td>(0.216)</td><td>(0.004)</td><td>(0.007)</td><td>(0.001)</td></tr>
-<tr><td style="text-align:left">C(author)[T.Obama, Trump]</td><td>0.066<sup></sup></td><td>-0.001<sup></sup></td><td>-0.003<sup></sup></td><td>-0.000<sup></sup></td></tr>
-<tr><td style="text-align:left"></td><td>(0.200)</td><td>(0.004)</td><td>(0.007)</td><td>(0.001)</td></tr>
-<tr><td style="text-align:left">C(author)[T.Obama]</td><td>0.019<sup></sup></td><td>-0.008<sup>*</sup></td><td>-0.003<sup></sup></td><td>-0.000<sup></sup></td></tr>
-<tr><td style="text-align:left"></td><td>(0.219)</td><td>(0.005)</td><td>(0.007)</td><td>(0.001)</td></tr>
-<tr><td style="text-align:left">C(author)[T.Trump]</td><td>0.102<sup></sup></td><td>0.004<sup></sup></td><td>-0.002<sup></sup></td><td>-0.000<sup></sup></td></tr>
-<tr><td style="text-align:left"></td><td>(0.214)</td><td>(0.004)</td><td>(0.007)</td><td>(0.001)</td></tr>
-<tr><td style="text-align:left">C(platform)[T.Twitter, Truth Social]</td><td>-0.169<sup></sup></td><td>0.005<sup></sup></td><td>0.002<sup></sup></td><td>0.001<sup></sup></td></tr>
-<tr><td style="text-align:left"></td><td>(0.430)</td><td>(0.009)</td><td>(0.014)</td><td>(0.003)</td></tr>
-<tr><td style="text-align:left">C(platform)[T.Twitter]</td><td>-0.032<sup></sup></td><td>-0.015<sup>**</sup></td><td>-0.000<sup></sup></td><td>0.001<sup></sup></td></tr>
-<tr><td style="text-align:left"></td><td>(0.383)</td><td>(0.008)</td><td>(0.013)</td><td>(0.002)</td></tr>
-<tr><td style="text-align:left">Intercept</td><td>-0.029<sup></sup></td><td>0.007<sup></sup></td><td>0.004<sup></sup></td><td>-0.001<sup></sup></td></tr>
-<tr><td style="text-align:left"></td><td>(0.422)</td><td>(0.009)</td><td>(0.014)</td><td>(0.003)</td></tr>
-<tr><td style="text-align:left">is_president</td><td>-0.050<sup></sup></td><td>0.010<sup>***</sup></td><td>0.000<sup></sup></td><td>0.001<sup></sup></td></tr>
-<tr><td style="text-align:left"></td><td>(0.121)</td><td>(0.002)</td><td>(0.004)</td><td>(0.001)</td></tr>
-
-<td colspan="5" style="border-bottom: 1px solid black"></td></tr>
-<tr><td style="text-align: left">Observations</td><td>3280</td><td>3280</td><td>3280</td><td>3280</td></tr><tr><td style="text-align: left">R<sup>2</sup></td><td>0.001</td><td>0.027</td><td>0.001</td><td>0.001</td></tr><tr><td style="text-align: left">Adjusted R<sup>2</sup></td><td>-0.002</td><td>0.025</td><td>-0.001</td><td>-0.002</td></tr><tr><td style="text-align: left">Residual Std. Error</td><td>1.955 (df=3270)</td><td>0.040 (df=3270)</td><td>0.064 (df=3270)</td><td>0.012 (df=3270)</td></tr><tr><td style="text-align: left">F Statistic</td><td>0.206<sup></sup> (df=9; 3270)</td><td>10.211<sup>***</sup> (df=9; 3270)</td><td>0.533<sup></sup> (df=9; 3270)</td><td>0.283<sup></sup> (df=9; 3270)</td></tr>
-<tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align: left">Note:</td><td colspan="4" style="text-align: right"><sup>*</sup>p&lt;0.1; <sup>**</sup>p&lt;0.05; <sup>***</sup>p&lt;0.01</td></tr></table>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Date</th>
+      <th>Likes</th>
+      <th>Retweets</th>
+      <th>Quotes</th>
+      <th>Replies</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>mean</th>
+      <td>13-Sep-2016</td>
+      <td>29,758</td>
+      <td>8,325</td>
+      <td>815</td>
+      <td>2,797</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>07-May-2007</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>31-Oct-2013</td>
+      <td>15</td>
+      <td>87</td>
+      <td>34</td>
+      <td>194</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>08-Mar-2016</td>
+      <td>440</td>
+      <td>2,989</td>
+      <td>184</td>
+      <td>1,121</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>03-Dec-2019</td>
+      <td>42,214</td>
+      <td>12,288</td>
+      <td>598</td>
+      <td>3,059</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>17-Dec-2022</td>
+      <td>3,887,923</td>
+      <td>544,409</td>
+      <td>147,553</td>
+      <td>203,615</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>NaN</td>
+      <td>66,703</td>
+      <td>13,565</td>
+      <td>3,106</td>
+      <td>5,700</td>
+    </tr>
+  </tbody>
+</table>
